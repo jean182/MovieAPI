@@ -1,24 +1,21 @@
-# README
+# Movie API in Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is for developing a kind of imdb api for using it together with React in the frontend
 
-Things you may want to cover:
+### Prerequisites
 
-* Ruby version
+You need to have rails and postgres installed
 
-* System dependencies
+## Built With
 
-* Configuration
+* [Rails](https://github.com/rails/rails) - The web framework used
+* [React API](https://github.com/jean182) - Used for the frontend
 
-* Database creation
+## Versioning
 
-* Database initialization
+Currently this is v1 of the API
 
-* How to run the test suite
+## Authors
 
-* Services (job queues, cache servers, search engines, etc.)
+* **Jean Aguilar** - *Initial work* - [jean182](https://github.com/jean182)
 
-* Deployment instructions
-
-* ...
