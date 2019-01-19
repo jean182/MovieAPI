@@ -14,13 +14,16 @@ gem 'puma', '~> 3.11'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# JWT
+gem 'jwt'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -40,6 +43,9 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.8'
   # Factory bot
   gem 'factory_bot_rails'
+  # Pry
+  gem 'pry'
+  gem 'pry-remote'
 end
 
 group :development do
@@ -56,6 +62,8 @@ group :test do
   gem 'shoulda-matchers', '4.0.0.rc1'
   # Db cleaner
   gem 'database_cleaner'
+  # Fake data
+  gem 'faker'
 end
 
 
