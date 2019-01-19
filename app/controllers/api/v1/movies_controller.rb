@@ -5,12 +5,12 @@ class Api::V1::MoviesController < Api::V1::ApiController
   def index
     @movies = Movie.all
 
-    render json: @movies
+    json_response(@movies)
   end
 
   # GET /movies/1
   def show
-    render json: @movie
+    json_response(@movie)
   end
 
   # POST /movies
