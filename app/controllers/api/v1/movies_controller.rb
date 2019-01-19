@@ -1,4 +1,5 @@
 class Api::V1::MoviesController < Api::V1::ApiController
+  skip_before_action :authorize_request
   before_action :set_movie, only: %i[show update destroy]
 
   # GET /movies
