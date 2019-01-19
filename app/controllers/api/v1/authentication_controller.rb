@@ -1,4 +1,4 @@
-class AuthenticationController < ApplicationController
+class Api::V1::AuthenticationController < Api::V1::ApiController
   skip_before_action :authorize_request, only: :authenticate
   def authenticate
     auth_token =
