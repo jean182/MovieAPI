@@ -36,7 +36,7 @@ module MovieApp
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
-        resource '*', headers: :any, methods: %i[get post options]
+        resource '*', headers: :any, methods: %i[get post put patch delete head options]
       end
     end
     config.middleware.use Rack::Attack
