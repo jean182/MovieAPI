@@ -42,7 +42,6 @@ RSpec.describe Api::V1::MoviesController, type: :controller do
 
   describe "GET #index" do
     it "returns a success response" do
-      movie = Movie.create! valid_attributes
       get :index, params: {}, session: valid_session
       expect(response).to be_successful
     end
