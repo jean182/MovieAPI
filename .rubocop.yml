@@ -9,6 +9,7 @@ AllCops:
     - app/helpers/devise_helper.rb
     - '**/db/**/*'
     - '**/config/**/*'
+    - '**/bin/**/*'
 
 Rails:
   Enabled: true
